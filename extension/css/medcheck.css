@@ -1,0 +1,39 @@
+.medcheck-text-highlight {
+  background: rgba(255, 244, 125, 0.5);
+  color:#605c31;
+  /* animation: textError .6s ease infinite; */
+  border-radius:16px;
+}
+/*
+@keyframes textError {
+  0%   {  box-shadow:0 0 0 5px rgba(255, 244, 125, 0.5); }
+  50%  {  box-shadow:0 0 0 8px rgba(255, 244, 125, 0.7); background: rgba(255, 244, 125, 0.7); }
+  100% {  box-shadow:0 0 0 5px rgba(255, 244, 125, 0.5); }
+} */
+
+
+
+.medcheck-indicator {
+  display: none;
+  cursor:default;
+  position: fixed;
+  z-index:99999;
+  left:20px; bottom:20px;
+  color:#fff;
+  height:30px;
+  min-width:30px;
+  border-radius:15px;
+  background: #d12c8d;
+  font-family: Roboto;
+  font-weight:900;
+  padding:0;
+  line-height:30px;
+  font-size:14px;
+  text-align:center;
+
+  box-shadow:0 0 0 2px #fff;
+}
+
+.medcheck-indicator.active {
+  display: block;
+}

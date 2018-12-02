@@ -1,0 +1,1 @@
+# medcheck-text-highlighter-extension
