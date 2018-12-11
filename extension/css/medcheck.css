@@ -1,5 +1,6 @@
 .medcheck-text-highlight {
   background: rgba(255, 244, 125, 0.5);
+  box-shadow:0 0 0 5px rgba(255, 244, 125, 0.5);
   color:#605c31;
   /* animation: textError .6s ease infinite; */
   border-radius:16px;
@@ -14,26 +15,26 @@
 
 
 .medcheck-indicator {
-  display: none;
-  cursor:default;
-  position: fixed;
-  z-index:99999;
-  left:20px; bottom:20px;
-  color:#fff;
-  height:30px;
-  min-width:30px;
-  border-radius:15px;
-  background: #d12c8d;
-  font-family: Roboto;
-  font-weight:900;
-  padding:0;
-  line-height:30px;
-  font-size:14px;
-  text-align:center;
+  display: none !important;
+  cursor:default !important;
+  position: fixed !important;
+  z-index:999999999999 !important;
+  left:20px !important; bottom:20px !important;
+  color:#fff !important;
+  height:30px !important;
+  min-width:30px !important;
+  border-radius:15px !important;
+  background: #d12c8d !important;
+  font-family: Roboto !important;
+  font-weight:900 !important;
+  padding:0 !important;
+  line-height:30px !important;
+  font-size:16px !important;
+  text-align:center !important;
 
   box-shadow:0 0 0 2px #fff;
 }
 
 .medcheck-indicator.active {
-  display: block;
+  display: block !important;
 }
